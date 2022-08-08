@@ -115,7 +115,7 @@ int main()
         // khởi tạo kết nối IP
         if ((listenSock = socket(AF_INET, SOCK_STREAM, 0)) < 0)
         {
-                printf("Loi tao socket\n");
+                printf("Error socket\n");
                 exit(1);
         }
         serverAddr.sin_family = AF_INET;
@@ -128,7 +128,7 @@ int main()
 
         if (bind(listenSock, (struct sockaddr *)&serverAddr, sizeof(serverAddr)) < 0)
         {
-                printf("Loi bind\n");
+                printf("Error bind\n");
                 exit(2);
         }
 
