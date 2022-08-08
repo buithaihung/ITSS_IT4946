@@ -21,7 +21,7 @@ Create log files correspond with equiqments in `equiqInfor.txt`
  Bui Thai Hung - 20184116,
  Vi Hoang Duy Linh - 20184133,
  Tran Thanh Long - 20184143,
- Tran Quang Quan - 20184179,
+ Tran Quang Quan - 20184179
  
  
  
